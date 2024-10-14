@@ -44,7 +44,6 @@
               type="text"
               id="addTodoInput"
               placeholder="Enter a todo"
-              required
             />
             <button id="addTodoButton" type="submit" class="btn btn-success">
               Add Todo
@@ -60,20 +59,7 @@
             placeholder="Search todo"
           />
           <hr />
-          <ul id="todoList" class="list-group">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Todo
-              <span id="todoId" class="badge rounded-pill text-bg-primary"
-                >ID: ****</span
-              >
-
-              <button class="btn btn-danger btn-sm deleteTodoButton">
-                <i class="fa-regular fa-trash-can"></i>
-              </button>
-            </li>
-          </ul>
+          <ul id="todoList" class="list-group"></ul>
           <hr />
           <button id="clearTodosButton" type="button" class="btn btn-danger">
             Clear All Todos
